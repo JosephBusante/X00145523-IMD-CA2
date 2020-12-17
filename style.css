@@ -1,0 +1,125 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+ .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
+  .columnHead {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    margin-left: auto;
+  margin-right: auto;
+  }
+  
+  /* Clear floats after image containers */
+  .rowHead::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .columnText {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .rowText::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* These bits of code are used to stop the different sections from overlapping from each other */
+    #topofpage{
+    padding-top: 20px;
+    text-align: center;
+    }
+    #about { 
+      height:100%;
+      color:black; 
+    }
+    #education {
+      height:100%;
+      color:black; 
+    }
+    #experiences {
+      height:100%;
+      color:black; 
+    }
+    #project {
+        height:100%;
+        color:black; 
+      }
+      #skill {
+        height:100%;
+        color:black; 
+      }
+      #Matrix {
+        background-color:lightgray;
+        text-align: center;
+      }
+      #interests {
+        height:100%;
+        color:black; 
+      }
+      #contact {
+        height:100%;
+        color:black; 
+        padding-top: 30px;
+      }
+
+      /* This is to change the size of the carousel so that it doesn't fit the entire screen got this from stackoverflow*/
+      .carousel-inner > .item > img {
+        width:640px;
+        height:500px;
+      }
+
+      /* Style inputs with type="text", select elements and text areas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: grey;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+  }
+
+   /* Spacing for p*/
+  p.spacer{
+    margin: 0px;
+    padding: 0px;
+    line-height:1;
+  }
+
+  /* Spacing for h4*/
+  h4.paddingSpace {
+      padding-top: 5px;
+  }
+
